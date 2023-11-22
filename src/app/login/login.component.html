@@ -1,0 +1,23 @@
+<div class="container-fluid d-flex justify-content-center">
+    <div class="card m-1 p-1">
+        <div class="card-header">
+          User Login
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">User Login</h5>
+          <form>
+            <div class="form-group">
+              <label for="txtusernae">Email address</label>
+              <input type="name" class="form-control" id="txtUsername" aria-describedby="emailHelp" placeholder="Enter email">
+            </div>
+            <div class="form-group">
+              <label for="txtPassword">Password</label>
+              <input type="password" class="form-control" id="txtPassword" placeholder="Password">
+            </div>
+            <a [routerLink]="'/about'" class="btn btn-primary mt-2">Login</a><br>
+            <a routerLink="/register" class="link-primary">Register?</a>
+          </form>
+         
+        </div>
+      </div>
+</div>
